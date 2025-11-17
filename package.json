@@ -1,0 +1,22 @@
+{
+  "name": "downloads",
+  "version": "1.0.0",
+  "description": "กระดานข้อความต่อกันแบบออนไลน์",
+  "main": "collab-notepad-server.js",
+  "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js collab-notepad-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "collaboration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
